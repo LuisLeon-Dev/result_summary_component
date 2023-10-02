@@ -1,0 +1,38 @@
+.resultCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &__score {
+    background: linear-gradient($light_slate_blue, $light_royal_blue);
+    border-radius: 0 0 30px 30px;
+    color: $light_lavender;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2.5rem;
+  }
+  .score {
+    border-radius: 100%;
+    padding: 2rem 2.5rem;
+    margin: 20px;
+    background: linear-gradient($violet_blue, $persian_blue);
+    &__points {
+      font-size: 56px;
+      font-weight: $font_bold;
+      color: $white;
+    }
+    &__range {
+      font-size: 12px;
+      color: $light_lavender;
+    }
+    &__message {
+      font-size: 24px;
+      color: $white;
+      margin-bottom: 10px;
+      font-weight: $font_bold;
+    }
+  }
+}

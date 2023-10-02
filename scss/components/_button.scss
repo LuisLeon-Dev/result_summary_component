@@ -1,0 +1,14 @@
+.btn {
+  padding: 15px;
+  border-radius: 20px;
+  border: 0;
+  background-color: $dark_gray_blue;
+  color: $white;
+  margin-bottom: 1rem;
+
+  &:hover {
+    cursor: pointer;
+    background-color: $violet_blue;
+    transition: 0.5s ease;
+  }
+}

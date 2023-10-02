@@ -1,0 +1,101 @@
+@import url("../../assets/fonts/HankenGrotesk-VariableFont_wght.ttf");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Hanken Grotesk", sans-serif; }
+
+.light-red {
+  color: #ff5757;
+  background-color: rgba(255, 87, 87, 0.2); }
+
+.orange-yellow {
+  color: #ffb01f;
+  background-color: rgba(255, 176, 31, 0.2); }
+
+.green-teal {
+  color: #00bd91;
+  background-color: rgba(0, 189, 145, 0.2); }
+
+.cobalt-blue {
+  color: #1125d4;
+  background-color: rgba(17, 37, 212, 0.2); }
+
+.dark_gray_blue {
+  color: #303b5a; }
+
+span {
+  color: #aeadcc; }
+
+.btn {
+  padding: 15px;
+  border-radius: 20px;
+  border: 0;
+  background-color: #303b5a;
+  color: white;
+  margin-bottom: 1rem; }
+  .btn:hover {
+    cursor: pointer;
+    background-color: #4e21ca;
+    transition: 0.5s ease; }
+
+.resultCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .resultCard__score {
+    background: linear-gradient(#7857ff, #2e2be9);
+    border-radius: 0 0 30px 30px;
+    color: #aeadcc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2.5rem; }
+  .resultCard .score {
+    border-radius: 100%;
+    padding: 2rem 2.5rem;
+    margin: 20px;
+    background: linear-gradient(#4e21ca, rgba(36, 33, 202, 0)); }
+    .resultCard .score__points {
+      font-size: 56px;
+      font-weight: 700;
+      color: white; }
+    .resultCard .score__range {
+      font-size: 12px;
+      color: #aeadcc; }
+    .resultCard .score__message {
+      font-size: 24px;
+      color: white;
+      margin-bottom: 10px;
+      font-weight: 700; }
+
+.resultCard__summary {
+  display: flex;
+  flex-direction: column;
+  width: 85%; }
+
+.summary__text {
+  margin: 15px 0 15px 0;
+  font-size: 18px;
+  font-weight: 800; }
+
+.scores {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1rem; }
+
+.ticket {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border-radius: 15px; }
+  .ticket .icons {
+    display: flex; }
+    .ticket .icons img {
+      margin-right: 10px;
+      margin-left: 10px; }

@@ -1,0 +1,30 @@
+//Color
+$light_red: hsl(0, 100%, 67%);
+$orange_yellow: hsl(39, 100%, 56%);
+$green_teal: hsl(166, 100%, 37%);
+$cobalt_blue: hsl(234, 85%, 45%);
+
+$light_red_bg: hsla(0, 100%, 67%, 0.2);
+$orange_yellow_bg: hsla(39, 100%, 56%, 0.2);
+$green_teal_bg: hsla(166, 100%, 37%, 0.2);
+$cobalt_blue_bg: hsla(234, 85%, 45%, 0.2);
+
+//Background gradient
+$light_slate_blue: hsl(252, 100%, 67%);
+$light_royal_blue: hsl(241, 81%, 54%);
+
+//Background circle
+$violet_blue: hsla(256, 72%, 46%, 1);
+$persian_blue: hsla(241, 72%, 46%, 0);
+
+//neutral colos
+$white: hsl(0, 0%, 100%);
+$pale_blue: hsl(221, 100%, 96%);
+$light_lavender: hsl(242, 23%, 74%);
+$dark_gray_blue: hsl(224, 30%, 27%);
+//fonts
+@import url("../../assets/fonts/HankenGrotesk-VariableFont_wght.ttf");
+$font_family: "Hanken Grotesk", sans-serif;
+$font_regular: 500;
+$font_bold: 700;
+$font_extraBold: 800;
