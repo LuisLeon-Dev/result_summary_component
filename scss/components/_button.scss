@@ -8,7 +8,7 @@
 
   &:hover {
     cursor: pointer;
-    background-color: $violet_blue;
+    background: linear-gradient($violet_blue, $persian_blue);
     transition: 0.5s ease;
   }
 }

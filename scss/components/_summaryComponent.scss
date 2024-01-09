@@ -19,7 +19,6 @@
 .ticket {
   display: flex;
   justify-content: space-between;
-
   padding: 15px;
   border-radius: 15px;
 
@@ -30,5 +29,13 @@
       margin-right: 10px;
       margin-left: 10px;
     }
+  }
+}
+
+@media (min-width: 1024px) {
+  .resultCard__summary {
+    border-radius: 30px;
+    padding: 3rem;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   }
 }

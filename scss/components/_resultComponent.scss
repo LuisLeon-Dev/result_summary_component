@@ -36,3 +36,21 @@
     }
   }
 }
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 3rem;
+  }
+  .resultCard {
+    flex-direction: row;
+
+    &__score {
+      border-radius: 30px;
+    }
+  }
+}
